@@ -1,0 +1,46 @@
+components:
+  schemas:
+    Placa:
+      type: object
+      required:
+        - placa
+        - placaImagem
+        - modelo
+        - marca
+        - cor
+        - tipoVeiculo
+        - dono
+        - cpf
+        - telefoneCelular
+        - email
+      properties:
+        placa:
+          type: string
+          example: ABC1234
+        placaImagem:
+          type: string
+          example: https://exemplo.com/imagem.jpg
+        modelo:
+          type: string
+          example: Civic
+        marca:
+          type: string
+          example: Honda
+        cor:
+          type: string
+          example: Prata
+        tipoVeiculo:
+          type: string
+          example: Carro
+        dono:
+          type: string
+          example: João da Silva
+        cpf:
+          type: string
+          example: 12345678900
+        telefoneCelular:
+          type: string
+          example: 11912345678
+        email:
+          type: string
+          example: joao@email.com
